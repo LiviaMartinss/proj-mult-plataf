@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    color: #d63384; 
+    font-weight: bold;
+  }
+  
+  p.lead {
+    color: #6c757d; 
+  }
+  
+  .input-group .form-control {
+    border-color: #d63384;
+  }
+  
+  .input-group .btn-primary {
+    background-color: #d63384;
+    border-color: #d63384; 
+  }
+  
+  .list-group-item {
+    background-color: #fff;
+    border-color: #d63384;
+    color: #6c757d; 
+  }
+  
+  .list-group-item .btn {
+    color: #fff;
+  }
+  
+  .list-group-item .btn-success {
+    background-color: #d63384; 
+    border-color: #d63384;
+  }
+  
+  .list-group-item .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  #task-list .completed {
+    text-decoration: line-through;
+    color: #d63384; 
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List para Universitários</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">To-Do List para Universitários</h1>
+    <p class="text-center lead">Facilite sua vida universitária de forma simples e eficiente com nossa lista de tarefas.</p>
+    <div class="input-group mb-3">
+      <input type="text" id="task-input" class="form-control" placeholder="Nova tarefa">
+      <select id="urgency-level" class="form-control">
+        <option value="Baixa">Baixa</option>
+        <option value="Média">Média</option>
+        <option value="Alta">Alta</option>
+      </select>
+      <input type="date" id="due-date" class="form-control">
+      <div class="input-group-append">
+        <button class="btn btn-primary" id="add-task-btn">Adicionar Tarefa</button>
+      </div>
+    </div>
+    <ul class="list-group" id="task-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
